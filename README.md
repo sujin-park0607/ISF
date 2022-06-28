@@ -27,7 +27,7 @@
 * 수집 데이터 필드 : 내용, 
 * 수집 결과
 
-<img width="450" src="https://user-images.githubusercontent.com/75667075/176170797-47d850f8-c152-42e5-b1e7-62c541823f07.png"/>     <img width="450" src="https://user-images.githubusercontent.com/75667075/176170898-7cc18e6b-15f4-41ac-8059-6ac45a2a6949.png"/>
+<img width="50%" src="https://user-images.githubusercontent.com/75667075/176170797-47d850f8-c152-42e5-b1e7-62c541823f07.png"/>     <img width="50%" src="https://user-images.githubusercontent.com/75667075/176170898-7cc18e6b-15f4-41ac-8059-6ac45a2a6949.png"/>
 
    
    
