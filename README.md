@@ -25,11 +25,10 @@
 * 사이트 : 네이버
 * 수집 데이터 : 1,395,654
 * 수집 데이터 필드 : 내용, 
-  
 * 수집 결과
 
-![image](https://user-images.githubusercontent.com/75667075/176151348-cfc3e12a-35e4-4e5e-8579-7abd12a0077d.png){: width="100" height="100"}
-![image](https://user-images.githubusercontent.com/75667075/176151367-3cf6a5aa-553f-4307-8a61-97871feb4dea.png){: width="100" height="100"}
+<img width="450" src="https://user-images.githubusercontent.com/75667075/176170797-47d850f8-c152-42e5-b1e7-62c541823f07.png"/>     <img width="450" src="https://user-images.githubusercontent.com/75667075/176170898-7cc18e6b-15f4-41ac-8059-6ac45a2a6949.png"/>
+
    
    
    
@@ -37,6 +36,7 @@
 2.키워드 및 언급량 추출 <br>
 ---
 : 수집한 기사 데이터셋의 형태소를 분석하여 추출된 단어들에 대한 주요 키워드와 언급량 추출
+
 
    2-1. 데이터 전처리
       * 형태소 분석 후 형용사, 명사만 추출 
@@ -55,13 +55,12 @@
 |대회|31099|
 |금메달|29450|
 |남자|29105|
+<br>
       
       
-* 워드클라우드
-![image](https://user-images.githubusercontent.com/75667075/176162644-0e1b994a-9513-4b6c-a727-d5f3d3eb03f3.png){: width="100" height="100"}
+* 결과 그래프
 
-*주별 그래프
-![image](https://user-images.githubusercontent.com/75667075/176164420-32d4973a-5ff8-4847-9201-03c36842f103.png){: width="100" height="100"}
+<img width="50%" src="https://user-images.githubusercontent.com/75667075/176162644-0e1b994a-9513-4b6c-a727-d5f3d3eb03f3.png"/><img width="50%" src="https://user-images.githubusercontent.com/75667075/176164420-32d4973a-5ff8-4847-9201-03c36842f103.png"/>
 
       
       
@@ -70,25 +69,28 @@
 3.댓글 데이터 긍.부정 감성분석<br>
 ---
 : Accuary: 87.6%
+
    
    3-1 레이블링
    : 긍정 1, 부정 0 으로 분류하여 전체 약 130만개의 데이터 중 5만개의 데이터 레이블링 작업 진행
-   ![image](https://user-images.githubusercontent.com/75667075/176162925-9767f74a-320a-410a-b467-b54486b0c92c.png)
+   <img width="500" src="https://user-images.githubusercontent.com/75667075/176162925-9767f74a-320a-410a-b467-b54486b0c92c.png"/>
+
    
    3-2 딥러닝을 이용한 학습
    :fastText, Bert를 활용하여 모델 형성
    
-   ![image](https://user-images.githubusercontent.com/75667075/176164339-c5b2e88f-2c8d-49b0-b88a-f4032f4cebfc.png)
-   ![image](https://user-images.githubusercontent.com/75667075/176164352-0a128ae8-787d-49be-8352-0a5171da8581.png)
-   
+   <img width="200" src="https://user-images.githubusercontent.com/75667075/176170456-a6a76f0b-572e-48d4-9fba-fc6b7ce1bf56.png"/><img width="200" src="https://user-images.githubusercontent.com/75667075/176170701-df290ba7-1720-42f6-9756-9f6a61b8bf48.png"/>
+
    3-3 결과
-   ![image](https://user-images.githubusercontent.com/75667075/176164592-b6427b08-f89f-4332-96eb-e5346ad04070.png)
+   
+   [상단- 긍정, 하단- 부정]
+   <p align="left"><img width="80%" src="https://user-images.githubusercontent.com/75667075/176164592-b6427b08-f89f-4332-96eb-e5346ad04070.png"/>
 
    [긍정, 부정이 가장 높은 Top-5 핵심 키워드 추출]
-   ![image](https://user-images.githubusercontent.com/75667075/176164675-e9625f9c-e685-4f82-af4f-4aade7fca9f0.png)
+   <p align="left"><img width="80%" src="https://user-images.githubusercontent.com/75667075/176164675-e9625f9c-e685-4f82-af4f-4aade7fca9f0.png"/>
    
    *긍정
-   |날짜| 키워드|
+   |날짜| 키워드| 
    |---|---|
    |7/29 | 선수, 한국, 경기, 여자|
    |7/31 | 선수, 한국, 경기, 여자|
@@ -112,5 +114,6 @@
 **4. 프로젝트 결과**<br>
 ---
 : [ISF] 2021 데이터로 본 국제스포츠 결과물
-![image](https://user-images.githubusercontent.com/75667075/176165452-68656a22-b4be-4927-8a88-ca51279783bc.png)
+
+<p align="center"><img width="65%" src="https://user-images.githubusercontent.com/75667075/176165452-68656a22-b4be-4927-8a88-ca51279783bc.png"/>
 
