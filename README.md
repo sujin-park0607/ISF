@@ -24,11 +24,8 @@
 * 키워드 : "도쿄올림픽" 
 * 사이트 : 네이버
 * 수집 데이터 : 1,395,654
-* 수집 데이터 필드 : 내용, 
-* 수집 결과
-
-<img width="50%" src="https://user-images.githubusercontent.com/75667075/176170797-47d850f8-c152-42e5-b1e7-62c541823f07.png"/>     <img width="50%" src="https://user-images.githubusercontent.com/75667075/176170898-7cc18e6b-15f4-41ac-8059-6ac45a2a6949.png"/>
-
+* 수집 데이터 필드 : 댓글, 닉네임, 날짜, 추천, URL 
+<img width="50%" src="https://user-images.githubusercontent.com/75667075/176196836-13040b20-9a06-4836-bb1c-3ad33229ee1e.png"/>
    
    
    
@@ -38,11 +35,12 @@
 : 수집한 기사 데이터셋의 형태소를 분석하여 추출된 단어들에 대한 주요 키워드와 언급량 추출
 
 
-   2-1. 데이터 전처리
-      * 형태소 분석 후 형용사, 명사만 추출 
-      * 한국어 형태소 분석기 Mecab 사용
-  2-2. 결과
-      * 키워드 조사
+   2-1. 데이터 전처리<br>
+      * 형태소 분석 후 형용사, 명사만 추출 <br>
+      * 한국어 형태소 분석기 Mecab 사용<br>
+      
+  2-2. 결과<br>
+      * 키워드 조사<br>
       
 |키워드|언급량|
 |---|---|
@@ -73,7 +71,8 @@
    
    3-1 레이블링
    : 긍정 1, 부정 0 으로 분류하여 전체 약 130만개의 데이터 중 5만개의 데이터 레이블링 작업 진행
-   <img width="500" src="https://user-images.githubusercontent.com/75667075/176162925-9767f74a-320a-410a-b467-b54486b0c92c.png"/>
+
+   <img width="500" src="https://user-images.githubusercontent.com/75667075/176196354-83b43bd6-b825-4351-8c17-ef47d29a6b46.png"/>
 
    
    3-2 딥러닝을 이용한 학습
@@ -113,7 +112,6 @@
    
 **4. 프로젝트 결과**<br>
 ---
-: [ISF] 2021 데이터로 본 국제스포츠 결과물
+: [ISF] 2021 데이터로 본 국제스포츠 (https://sport-strategy.org/archive/30)
 
-<p align="center"><img width="65%" src="https://user-images.githubusercontent.com/75667075/176165452-68656a22-b4be-4927-8a88-ca51279783bc.png"/>
 
