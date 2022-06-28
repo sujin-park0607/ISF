@@ -29,8 +29,8 @@
   
 * 수집 결과
 
-   ![image](https://user-images.githubusercontent.com/75667075/176151348-cfc3e12a-35e4-4e5e-8579-7abd12a0077d.png)
-   ![image](https://user-images.githubusercontent.com/75667075/176151367-3cf6a5aa-553f-4307-8a61-97871feb4dea.png)
+   ![image](https://user-images.githubusercontent.com/75667075/176151348-cfc3e12a-35e4-4e5e-8579-7abd12a0077d.png){: width="100" height="100"}
+   ![image](https://user-images.githubusercontent.com/75667075/176151367-3cf6a5aa-553f-4307-8a61-97871feb4dea.png){: width="100" height="100"}
    
    
    
@@ -38,23 +38,24 @@
 **2.키워드 및 언급량 추출 **<br>
 ---
 : 수집한 기사 데이터셋의 형태소를 분석하여 추출된 단어들에 대한 주요 키워드와 언급량 추출
+
    2-1. 데이터 전처리
       * 형태소 분석 후 형용사, 명사만 추출 
       * 한국어 형태소 분석기 Mecab 사용
   2-2. 결과
       * 키워드 조사
       
-      |키워드|언급량|
-      |---|---|
-      |선수|83653|
-      |경기|54737|
-      |한국|53742|
-      |대표|47786|
-      |팀|41019|
-      |여자|38386|
-      |대회|31099|
-      |금메달|29450|
-      |남자|29105|
+|키워드|언급량|
+|---|---|
+|선수|83653|
+|경기|54737|
+|한국|53742|
+|대표|47786|
+|팀|41019|
+|여자|38386|
+|대회|31099|
+|금메달|29450|
+|남자|29105|
       
       * 워드클라우드
       ![image](https://user-images.githubusercontent.com/75667075/176162644-0e1b994a-9513-4b6c-a727-d5f3d3eb03f3.png)
